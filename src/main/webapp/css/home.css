@@ -1,0 +1,226 @@
+body{
+	
+	margin: 0;
+	padding: 0;
+
+}
+ul li{
+	list-style: none;
+}
+.Box{
+	background: linear-gradient(#232526,#414345);
+	width: 1350px;
+	height: 2000px;
+}
+.Page{
+	width: 1350px;
+	height: 70px;
+	border-bottom:2px solid skyblue;
+}
+.Page-center{
+	margin: 0 auto;
+	width: 1100px;
+    height: 70px;
+}
+.char a span{
+	float: left;
+	margin-right: 30px;
+	font-size: 16px;
+	margin-top: 27px;
+	color: #fff;
+}
+.char a span:hover{
+	color:skyblue;
+}
+.char{
+	margin-left: 315px;
+}
+
+.box{
+	margin-top: 90px;
+}
+.right{
+	margin: 0 auto;
+    width: 700px;
+    height: 120px;
+}
+.right input{
+   
+	width: 400px;
+	height: 30px;
+	outline: none;
+	border: 1px solid  skyblue;
+	background:rgba(0,0,0,.3);
+	position: relative;
+    margin-left: 120px;
+    margin-top: 70px;
+    color: skyblue;
+}
+.right button{
+	 padding: 0;
+	width: 90px;
+	height: 34px;
+	margin-left: -6px;
+	background-color: #ccc;
+	border-radius: 0  10px 10px 0;
+	background:rgba(0,0,0,.3);
+	border: 1px solid  skyblue;
+	font-weight: bold;
+	color: skyblue;
+}
+.right p{
+    width: 290px;
+    height: 30px;
+	font-size: 25px;
+	position: absolute;
+	margin-left: 210px;
+	font-weight: bold;
+	color: #ccc;
+
+}
+.subject{
+	margin: 0 auto;
+	width: 1100px;
+	height: 1000px;
+	margin-top: 100px;
+	position: relative;
+}
+.subLeft{
+	width: 300px;
+	height: 1000px;
+	background: linear-gradient(#232526,#414345);
+	box-shadow: 1px 0px 30px -10px skyblue;
+	position: absolute;
+}
+.via{
+	width: 200px;
+	height: 200px;
+	background: url(../img/ll.jpg);
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.Blo{
+	width: 200px;
+	height: 1000px;
+	margin: 50px 0 0 0px;
+}
+.Blo ul li{
+	width: 100%;
+	height: 40px;
+	margin-top: 40px;
+	background: linear-gradient(#232526,#414345);
+	border-radius: 20px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 40px;
+	color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 2px 3px 20px -2px #ccc;
+	cursor:pointer;
+
+}
+.Concern{
+	width: 300px;
+	height: 60px;
+	background: linear-gradient(#232526,#414345);
+}
+.Concern ul li{
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+	line-height: 60px;
+	margin-left: 30px;
+}
+.Concern ul li:hover{
+	color: skyblue;
+}
+.subRight{
+	width: 780px;
+	height: 1000px;
+	position: absolute;
+	right: 0;
+
+}
+.Head{
+	width: 780px;
+	height: 70px;
+	background: linear-gradient(#232526,#414345);
+}
+.Head ul{
+	margin:0;
+}
+.Head ul li{
+	margin-left: 30px;
+	font-size: 16px;
+	line-height: 70px;
+	float: left;
+	color: #fff;
+}
+.coo{
+	color: skyblue !important;
+}
+#Search{
+  border: 1px solid skyblue;
+  background:none;
+  width: 200px;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  color: #fff;
+}
+#Sou{
+	width: 50px;
+	height: 24px;
+	background:none;
+	color: #fff;
+	border: 1px solid skyblue;
+	border-radius: 0 10px 10px 0;
+	margin-left: -6px;
+}
+.Content{
+	width: 780px;
+	height: 800px;
+	position: relative;
+}
+.Quan{
+	width: 780px;
+	height: 800px;
+	background: #ccc;
+	position: absolute;
+	display: block;
+}
+.Yuan{
+	width: 780px;
+	height: 800px;
+	background: yellow;
+	position: absolute;
+	display: none;
+}
+.Tu{
+	width: 780px;
+	height: 800px;
+	background: green;
+	position: absolute;
+	display: none;
+}
+.Shi{
+	width: 780px;
+	height: 800px;
+	background: pink;
+	position: absolute;
+	display: none;
+}
+.Yin{
+	width: 780px;
+	height: 800px;
+	background: skyblue;
+	position: absolute;
+	display: none;
+}
+.Wen{
+	width: 780px;
+	height: 800px;
+	background: #fff;
+	position: absolute;
+	display: none;
+}

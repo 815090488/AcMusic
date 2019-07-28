@@ -1,0 +1,136 @@
+body{
+	margin:0;
+	padding:0;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.header{
+	width:1350px;
+	height: 630px;
+	background: url() no-repeat;
+	background-size: 100% 100%;
+}
+.box{
+	width: 250px;
+	height: 330px;
+	border: 1px solid skyblue;
+	left: 50%;
+	margin-left: -125px;
+	margin-top: 120px;
+    position: absolute;
+}
+.box span{
+	position: relative;
+	top:20px;
+	left: 50%;
+	margin-left: -40px;
+	font-size: 20px;
+} 
+.use{
+	width: 250px;
+	height: 50px;
+    margin-top: 50px;
+}
+
+.me{
+	font-size: 26px;
+	margin-left: 20px;
+	top:12px;
+	font-weight: bold;
+	color: skyblue;
+	opacity: 0.5;
+}
+.use input,.pas input{
+    outline: none;
+    border:0px;
+    border-bottom: 1px solid skyblue;
+    width: 180px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background:none;
+}
+
+.footer{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.font{
+	font-size: 26px;
+	margin-left: 20px;
+	text-align: center;
+	color: skyblue;
+	opacity: 0.5;
+}
+#UseSpan{
+	font-size: 12px;
+	position: absolute;
+	margin-top: 69px;
+	margin-left: 40px;
+	color: skyblue;
+}
+#PaSpan{
+	font-size: 12px;
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 40px;
+	color:skyblue;
+}
+.log{
+	width: 250px;
+}
+#SuBut{
+	border:none;
+	background:skyblue;
+	width:100px;
+	height: 30px;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-left:12px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 1px 2px 10px 1px #ccc;
+}
+#Register{
+    border:none;
+	background:skyblue;
+	width:100px;
+	height: 30px;
+	border-radius: 10px;
+	font-size:16px;
+	margin-top: 30px;
+	margin-right: 12px;
+    outline: none;
+    cursor: pointer;
+    float: right;
+    box-shadow: 1px 2px 10px 1px #ccc;
+}
+#SuButSpan{
+	font-size:16px;
+	position: absolute;
+	margin-left: -78px;
+    margin-top: 170px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#SuBspan{
+	font-size:16px;
+	position: absolute;
+	margin-left: 50px;
+    margin-top: 171px;
+    font-weight: bold;
+    cursor: pointer;
+}

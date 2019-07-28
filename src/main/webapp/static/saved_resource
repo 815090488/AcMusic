@@ -1,0 +1,4 @@
+KgAck.Cookie.write('ACK_SERVER_10015','{"list":[["gzlogin-user.kugou.com"]]}','600','/');
+KgAck.Cookie.write('ACK_SERVER_10016','{"list":[["gzreg-user.kugou.com"]]}','600','/');
+KgAck.Cookie.write('ACK_SERVER_10017','{"list":[["gzverifycode.service.kugou.com"]]}','600','/');
+KgUser.ackCallBackUpdateCookie({"errorCode":1,"errorMsg":"success","data":{"server_10015":{"list":[["gzlogin-user.kugou.com"]]},"server_10016":{"list":[["gzreg-user.kugou.com"]]},"server_10017":{"list":[["gzverifycode.service.kugou.com"]]}}});

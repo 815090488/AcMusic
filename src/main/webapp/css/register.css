@@ -1,0 +1,117 @@
+body{
+	margin:0;
+	padding:0;
+}
+.header{
+	width:1350px;
+	height: 800px;
+	background: url(../img/00.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.box{
+	width: 400px;
+	height: 700px;
+	background:rgba(0,0,0,0.2);
+	border: 1px solid skyblue;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: 50px;
+    position: absolute;
+    box-shadow: 1px 1px 75px 5px skyblue;
+}
+.Bein i{
+  font-size: 16px;
+  color: skyblue;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-style: normal;
+}
+.Bein input{
+  position: relative;
+  margin-top: 10px;
+  margin-left: 100px;
+  outline: none;
+  border:0px;
+  border-bottom: 1px solid skyblue;
+  width: 180px;
+  height: 20px;
+  background:none;
+}
+#man{
+	position: relative;
+	margin-left: 40px;
+}
+#men{
+	width: 20px;
+	position: relative;
+	margin-left: -46px;
+}
+.man{
+	color:skyblue;
+	font-size: 16px;
+	position: absolute;
+	margin-left:100px; 
+	margin-top: 8px;
+}
+.men{
+	color:skyblue;
+	font-size: 16px;
+	position: absolute;
+	margin-left:-66px; 
+	margin-top: 8px;
+}
+.native{
+	margin-top: 11px;
+	margin-left: 100px;
+	border: none;
+	background: none;
+	outline: none;
+}
+#LoL,#sleep,#eat,#dadou,#movies,#songs{
+	width: 20px;
+
+}
+#dadou{
+	margin-left: 95px;
+}
+#songs{
+	margin-left: 80px;
+}
+.introduce i{
+  font-size: 16px;
+  color: skyblue;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-style: normal;
+}
+.introduce textarea{
+	width: 277px;
+	height: 200px;
+	border: 1px solid skyblue;
+	margin-left: 100px;
+	background:none;
+	font-size: 20px;
+}
+.xieyi{
+	position: absolute;
+	margin-left: 106px;
+    margin-top: 34px;
+}
+#tijiao{
+	width: 70px;
+	height: 30px;
+	color: skyblue;
+	margin-top: 70px;
+	left: 50%;
+	margin-left: -30px;
+	position: absolute;
+	background:none;
+	border:1px solid skyblue;
+}
+#UseNSpan,#PasSpan,#mailSpan,#Pas2Span,#phoneSpan,
+#addressSpan,#favSpan,#codeSpan{
+	font-size: 14px;
+	color: skyblue;
+}
